@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B30C96911AF12C96009A2D31 /* libPods-FHStarterProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B30C96901AF12C96009A2D31 /* libPods-FHStarterProject.a */; };
 		B339FAD615DA88920040E5FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B339FAD515DA88920040E5FF /* UIKit.framework */; };
 		B339FAD815DA88920040E5FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B339FAD715DA88920040E5FF /* Foundation.framework */; };
 		B339FADA15DA88920040E5FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B339FAD915DA88920040E5FF /* CoreGraphics.framework */; };
 		B339FAE015DA88920040E5FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B339FADE15DA88920040E5FF /* InfoPlist.strings */; };
 		B339FAE215DA88920040E5FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B339FAE115DA88920040E5FF /* main.m */; };
 		B339FAE615DA88920040E5FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B339FAE515DA88920040E5FF /* AppDelegate.m */; };
-		B339FAED15DA88D40040E5FF /* FH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B339FAEC15DA88D40040E5FF /* FH.framework */; };
 		B339FAEF15DA88E50040E5FF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B339FAEE15DA88E50040E5FF /* MobileCoreServices.framework */; };
 		B339FAF115DA88F10040E5FF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B339FAF015DA88F10040E5FF /* CFNetwork.framework */; };
 		B339FAFE15DA89210040E5FF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B339FAFD15DA89210040E5FF /* SystemConfiguration.framework */; };
@@ -25,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2737B3E6E5E1CBE1DEAE89CE /* Pods-FHStarterProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FHStarterProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-FHStarterProject/Pods-FHStarterProject.release.xcconfig"; sourceTree = "<group>"; };
+		B30C96901AF12C96009A2D31 /* libPods-FHStarterProject.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-FHStarterProject.a"; path = "Pods/../build/Debug-iphoneos/libPods-FHStarterProject.a"; sourceTree = "<group>"; };
 		B339FAD115DA88920040E5FF /* FHStarterProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHStarterProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B339FAD515DA88920040E5FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B339FAD715DA88920040E5FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,7 +37,6 @@
 		B339FAE315DA88920040E5FF /* FHStarterProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FHStarterProject-Prefix.pch"; sourceTree = "<group>"; };
 		B339FAE415DA88920040E5FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B339FAE515DA88920040E5FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B339FAEC15DA88D40040E5FF /* FH.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FH.framework; sourceTree = "<group>"; };
 		B339FAEE15DA88E50040E5FF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		B339FAF015DA88F10040E5FF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		B339FAFD15DA89210040E5FF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -45,6 +46,7 @@
 		B339FB0B15DA8BDB0040E5FF /* FHStarterProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHStarterProjectViewController.h; sourceTree = "<group>"; };
 		B339FB0C15DA8BDB0040E5FF /* FHStarterProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHStarterProjectViewController.m; sourceTree = "<group>"; };
 		D8C17FD019659A87004434EF /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		E451A313051F4788B6577898 /* Pods-FHStarterProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FHStarterProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FHStarterProject/Pods-FHStarterProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +54,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30C96911AF12C96009A2D31 /* libPods-FHStarterProject.a in Frameworks */,
 				B339FB0415DA89410040E5FF /* libxml2.dylib in Frameworks */,
 				B339FB0015DA892A0040E5FF /* libz.dylib in Frameworks */,
 				B339FAFE15DA89210040E5FF /* SystemConfiguration.framework in Frameworks */,
 				B339FADA15DA88920040E5FF /* CoreGraphics.framework in Frameworks */,
 				B339FAF115DA88F10040E5FF /* CFNetwork.framework in Frameworks */,
 				B339FAEF15DA88E50040E5FF /* MobileCoreServices.framework in Frameworks */,
-				B339FAED15DA88D40040E5FF /* FH.framework in Frameworks */,
 				B339FAD615DA88920040E5FF /* UIKit.framework in Frameworks */,
 				B339FAD815DA88920040E5FF /* Foundation.framework in Frameworks */,
 			);
@@ -67,12 +69,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25AC22320A1DC062AA063203 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E451A313051F4788B6577898 /* Pods-FHStarterProject.debug.xcconfig */,
+				2737B3E6E5E1CBE1DEAE89CE /* Pods-FHStarterProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B339FAC615DA88920040E5FF = {
 			isa = PBXGroup;
 			children = (
 				B339FADB15DA88920040E5FF /* FHStarterProject */,
 				B339FAD415DA88920040E5FF /* Frameworks */,
 				B339FAD215DA88920040E5FF /* Products */,
+				25AC22320A1DC062AA063203 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,12 +99,12 @@
 		B339FAD415DA88920040E5FF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B30C96901AF12C96009A2D31 /* libPods-FHStarterProject.a */,
 				B339FB0315DA89410040E5FF /* libxml2.dylib */,
 				B339FAFF15DA892A0040E5FF /* libz.dylib */,
 				B339FAFD15DA89210040E5FF /* SystemConfiguration.framework */,
 				B339FAF015DA88F10040E5FF /* CFNetwork.framework */,
 				B339FAEE15DA88E50040E5FF /* MobileCoreServices.framework */,
-				B339FAEC15DA88D40040E5FF /* FH.framework */,
 				B339FAD515DA88920040E5FF /* UIKit.framework */,
 				B339FAD715DA88920040E5FF /* Foundation.framework */,
 				B339FAD915DA88920040E5FF /* CoreGraphics.framework */,
@@ -140,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B339FAE915DA88920040E5FF /* Build configuration list for PBXNativeTarget "FHStarterProject" */;
 			buildPhases = (
+				D52FB95435BE945DD79A6E47 /* Check Pods Manifest.lock */,
 				B339FACD15DA88920040E5FF /* Sources */,
 				B339FACE15DA88920040E5FF /* Frameworks */,
 				B339FACF15DA88920040E5FF /* Resources */,
+				F7263FB0B102A51FCDD46B1E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +205,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D52FB95435BE945DD79A6E47 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7263FB0B102A51FCDD46B1E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FHStarterProject/Pods-FHStarterProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B339FACD15DA88920040E5FF /* Sources */ = {
@@ -248,6 +295,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
 			};
 			name = Debug;
 		};
@@ -276,11 +324,13 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
 			};
 			name = Release;
 		};
 		B339FAEA15DA88920040E5FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E451A313051F4788B6577898 /* Pods-FHStarterProject.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -289,15 +339,22 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FHStarterProject/FHStarterProject-Prefix.pch";
 				INFOPLIST_FILE = "FHStarterProject/FHStarterProject-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "-ObjC";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		B339FAEB15DA88920040E5FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2737B3E6E5E1CBE1DEAE89CE /* Pods-FHStarterProject.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,9 +363,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FHStarterProject/FHStarterProject-Prefix.pch";
 				INFOPLIST_FILE = "FHStarterProject/FHStarterProject-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "-ObjC";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

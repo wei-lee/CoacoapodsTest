@@ -1,0 +1,1 @@
+PODS_FHSTARTERPROJECT_REACHABILITY_OTHER_LDFLAGS = -framework "SystemConfiguration"
