@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DDE1A329-30BE-433C-90B4-8843AFBB249E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FHStarterProject</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B6F5CEC70EFBE25D45A9B5E74DE2E3213D2A3EFD</key>
+		<string>git.beta.feedhenry.com:testing/CoacoaPodTest-Blank-Native-iOS-App.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FHStarterProject.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B6F5CEC70EFBE25D45A9B5E74DE2E3213D2A3EFD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>git.beta.feedhenry.com:testing/CoacoaPodTest-Blank-Native-iOS-App.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B6F5CEC70EFBE25D45A9B5E74DE2E3213D2A3EFD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B6F5CEC70EFBE25D45A9B5E74DE2E3213D2A3EFD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CoacoaPodTest-Blank-Native-iOS-App</string>
+		</dict>
+	</array>
+</dict>
+</plist>
